@@ -24,31 +24,31 @@ namespace _110_1Mid
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// b1_Id 控制項。
+        /// lb_Id 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label b1_Id;
+        protected global::System.Web.UI.WebControls.Label lb_Id;
 
         /// <summary>
-        /// dd1_Type 控制項。
+        /// ddl_Type 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dd1_Type;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_Type;
 
         /// <summary>
-        /// dd1_ZoneCode 控制項。
+        /// ddl_ZoneCode 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dd1_ZoneCode;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_ZoneCode;
 
         /// <summary>
         /// tb_Number 控制項。
@@ -60,13 +60,13 @@ namespace _110_1Mid
         protected global::System.Web.UI.WebControls.TextBox tb_Number;
 
         /// <summary>
-        /// dd1_City 控制項。
+        /// ddl_City 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dd1_City;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_City;
 
         /// <summary>
         /// tb_Add 控制項。
@@ -85,5 +85,32 @@ namespace _110_1Mid
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList rb_Des;
+
+        /// <summary>
+        /// tb_Des 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_Des;
+
+        /// <summary>
+        /// btn_Submit 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Submit;
+
+        /// <summary>
+        /// lb_Msg 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_Msg;
     }
 }
