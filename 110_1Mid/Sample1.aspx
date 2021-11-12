@@ -23,8 +23,12 @@
                 <asp:ListItem>其他</asp:ListItem>
             </asp:CheckBoxList><br />
             <asp:Label ID="Label4" runat="server" Text="影片說明" Font-Size="X-Large"></asp:Label>
-            <asp:HyperLink ID="HyperLink1" runat="server" Height="30px" Width="30px" ImageUrl="~/youtube-brands.svg" NavigateUrl="https://www.youtube.com/">HyperLink</asp:HyperLink>
-
+            <asp:HyperLink runat="server" Height="30px" Width="30px" ImageUrl="~/youtube-brands.svg" NavigateUrl="https://www.youtube.com/">HyperLink</asp:HyperLink><br />
+            <asp:Label ID="Label5" runat="server" Text="驗證碼" Font-Size="X-Large"></asp:Label>
+            <asp:TextBox ID="tb_Num" runat="server" Height="15px" Width="50px"></asp:TextBox>
+            <asp:Image ID="ig_Num" runat="server" />
+            <asp:HiddenField ID="hd_Num" runat="server" /><br />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出" Height="30px" Width="80px" PostBackUrl="~/Sample1Com.aspx" />
 
         </div>
     </form>
