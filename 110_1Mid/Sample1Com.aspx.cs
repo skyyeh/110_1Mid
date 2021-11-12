@@ -14,15 +14,15 @@ namespace _110_1Mid {
                 lb_Msg.Text += Request.Form.Get("tb_Id") + "<br />";
                 lb_Msg.Text += Request.Form.Get("td_Ps") + "<br />";
 
-                if (Request.Form.Get("cl_Inter") == "網頁廣告")
+                if (Request.Form.Get("cl_Inter$0") == "網頁廣告")
                 {
                     lb_Msg.Text = lb_Msg.Text + "網頁廣告" + "<br />";
                 }
-                if (Request.Form.Get("cl_Inter") == "電視")
+                if (Request.Form.Get("cl_Inter$1") == "電視")
                 {
                     lb_Msg.Text = lb_Msg.Text + "電視" + "<br />";
                 }
-                if (Request.Form.Get("cl_Inter") == "其他")
+                if (Request.Form.Get("cl_Inter$2") == "其他")
                 {
                     lb_Msg.Text = lb_Msg.Text + "其他" + "<br />";
                 }
